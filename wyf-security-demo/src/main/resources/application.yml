@@ -1,0 +1,4 @@
+#wyf:
+#  security:
+#    browser:
+#      login-page: /view/demo-login.html

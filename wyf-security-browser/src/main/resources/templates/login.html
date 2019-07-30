@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <style>
+        .container {
+            width: 242px;
+            height: 500px;
+            margin: 100px auto 0;
+        }
+        .title {
+            margin: 0 auto;
+            color: #17233d;
+        }
+        input {
+            width: 220px;
+            height: 35px;
+            border-radius: 5px;
+            border: 1px solid #c3c3c3;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .input-image-code {
+            width: 123px;
+            margin-right: 10px;
+        }
+        .btn-submit {
+            background-color: #2d8cf0;
+            color: #fff;
+            border: none;
+            margin-top: 20px;
+            height: 45px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <section class="container">
+        <h2 class="title" align="center">用户登录</h2>
+
+        <form action="/authentication/form" method="post">
+            <p><input type="text" name="username" placeholder="账号"></p>
+            <p><input type="password" name="password" placeholder="密码"></p>
+            <p><input class="input-image-code" type="text" name="imageCode" placeholder="验证码"><img src="/code/image"></p>
+            <p><input class="btn-submit" type="submit" value="登录"></p>
+        </form>
+    </section>
+
+</body>
+</html>
