@@ -1,4 +1,9 @@
-#wyf:
-#  security:
+wyf:
+  security:
 #    browser:
 #      login-page: /view/demo-login.html
+    code:
+      image:
+        length: 4
+        width: 100
+        url: /user,/user/*
