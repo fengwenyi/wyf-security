@@ -1,4 +1,4 @@
-package com.fengwenyi.wyf_security_browser.service;
+package com.fengwenyi.wyf_security_demo.security;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -41,6 +41,6 @@ public class MyUserDetailsService implements UserDetailsService {
         return new User(username,
                 passwordEncoder.encode("123456"),
                 true, true, true, true,
-                AuthorityUtils.commaSeparatedStringToAuthorityList("admin"));
+                AuthorityUtils.commaSeparatedStringToAuthorityList("admin,user"));
     }
 }

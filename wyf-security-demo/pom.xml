@@ -12,10 +12,23 @@
     <artifactId>wyf-security-demo</artifactId>
 
     <dependencies>
-        <dependency>
+        <!-- browser -->
+        <!--<dependency>
             <groupId>com.fengwenyi</groupId>
             <artifactId>wyf-security-browser</artifactId>
             <version>1.0.0</version>
+        </dependency>-->
+        <!-- app -->
+        <dependency>
+            <groupId>com.fengwenyi</groupId>
+            <artifactId>wyf-security-app</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+        <!-- lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
         </dependency>
     </dependencies>
 

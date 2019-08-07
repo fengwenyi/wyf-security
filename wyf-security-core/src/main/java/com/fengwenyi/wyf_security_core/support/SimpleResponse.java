@@ -1,4 +1,4 @@
-package com.fengwenyi.wyf_security_browser.support;
+package com.fengwenyi.wyf_security_core.support;
 
 import lombok.Getter;
 import lombok.experimental.Accessors;

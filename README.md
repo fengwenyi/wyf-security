@@ -43,3 +43,17 @@
 #### 授权码模式流程
 
 ![授权码模式流程](./images/02.png)
+
+## Spring Security OAuth
+
+#### 认证图
+
+![Spring Security OAuth开发APP认证框架](./images/03.png)
+
+#### 使用session存在的问题
+
+开发繁琐
+
+安全性和客户体验差
+
+有些前端技术不支持Cookie，如小程序

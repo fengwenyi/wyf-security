@@ -1,3 +1,4 @@
+
 wyf:
   security:
 #    browser:
@@ -7,3 +8,8 @@ wyf:
         length: 4
         width: 100
         url: /user,/user/*
+security:
+  oauth2:
+    client:
+      client-id: my
+      client-secret: my-secret

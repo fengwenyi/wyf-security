@@ -1,7 +1,7 @@
 package com.fengwenyi.wyf_security_browser.controller;
 
-import com.fengwenyi.wyf_security_browser.support.SimpleResponse;
 import com.fengwenyi.wyf_security_core.properties.SecurityProperties;
+import com.fengwenyi.wyf_security_core.support.SimpleResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

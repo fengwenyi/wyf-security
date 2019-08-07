@@ -30,6 +30,7 @@
 
         <!-- 权限使用示例 -->
         <module>wyf-security-demo</module>
+        <module>wyf-security-app</module>
     </modules>
 
     <build>

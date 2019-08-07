@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="wyf-security-demo" />
         <module name="wyf-security-core" />
+        <module name="wyf-security-app" />
         <module name="wyf-security-browser" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="wyf-security" target="1.8" />
+      <module name="wyf-security-app" target="1.8" />
       <module name="wyf-security-browser" target="1.8" />
       <module name="wyf-security-core" target="1.8" />
       <module name="wyf-security-demo" target="1.8" />
@@ -20,6 +22,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="wyf-security-app" options="-parameters" />
       <module name="wyf-security-browser" options="-parameters" />
       <module name="wyf-security-core" options="-parameters" />
       <module name="wyf-security-demo" options="-parameters" />

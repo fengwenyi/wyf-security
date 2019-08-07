@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "wyf.security",
+      "type": "com.fengwenyi.wyf_security_core.properties.SecurityProperties",
+      "sourceType": "com.fengwenyi.wyf_security_core.properties.SecurityProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "wyf.security.browser",
+      "type": "com.fengwenyi.wyf_security_core.properties.BrowserProperties",
+      "sourceType": "com.fengwenyi.wyf_security_core.properties.SecurityProperties"
+    },
+    {
+      "name": "wyf.security.code",
+      "type": "com.fengwenyi.wyf_security_core.properties.ValidateCodeProperties",
+      "sourceType": "com.fengwenyi.wyf_security_core.properties.SecurityProperties"
+    }
+  ],
+  "hints": []
+}
